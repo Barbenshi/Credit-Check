@@ -1,0 +1,7 @@
+/* Setup */
+@import 'setup/basic.css';
+
+/* Components */
+@import 'components/header.css';
+@import 'components/carItem.css';
+@import 'components/carList.css';

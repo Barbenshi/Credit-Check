@@ -1,0 +1,113 @@
+[
+    {
+      "_id": "1",
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": 2020,
+      "color": "Blue",
+      "mileage": 15000,
+      "price": 15000,
+      "fuel_type": "Petrol",
+      "transmission": "Automatic"
+    },
+    {
+      "_id": "2",
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2019,
+      "color": "Black",
+      "mileage": 22000,
+      "price": 17000,
+      "fuel_type": "Petrol",
+      "transmission": "Manual"
+    },
+    {
+      "_id": "3",
+      "make": "Ford",
+      "model": "Focus",
+      "year": 2021,
+      "color": "White",
+      "mileage": 8000,
+      "price": 20000,
+      "fuel_type": "Diesel",
+      "transmission": "Automatic"
+    },
+    {
+      "_id": "4",
+      "make": "Chevrolet",
+      "model": "Malibu",
+      "year": 2018,
+      "color": "Silver",
+      "mileage": 30000,
+      "price": 14000,
+      "fuel_type": "Hybrid",
+      "transmission": "Automatic"
+    },
+    {
+      "_id": "5",
+      "make": "BMW",
+      "model": "3 Series",
+      "year": 2020,
+      "color": "Red",
+      "mileage": 12000,
+      "price": 35000,
+      "fuel_type": "Petrol",
+      "transmission": "Automatic"
+    },
+    {
+      "_id": "6",
+      "make": "Audi",
+      "model": "A4",
+      "year": 2022,
+      "color": "Gray",
+      "mileage": 5000,
+      "price": 40000,
+      "fuel_type": "Electric",
+      "transmission": "Automatic"
+    },
+    {
+      "_id": "7",
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "year": 2021,
+      "color": "Blue",
+      "mileage": 10000,
+      "price": 45000,
+      "fuel_type": "Petrol",
+      "transmission": "Automatic"
+    },
+    {
+      "_id": "8",
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2023,
+      "color": "White",
+      "mileage": 2000,
+      "price": 55000,
+      "fuel_type": "Electric",
+      "transmission": "Automatic"
+    },
+    {
+      "_id": "9",
+      "make": "Volkswagen",
+      "model": "Passat",
+      "year": 2019,
+      "color": "Green",
+      "mileage": 25000,
+      "price": 18000,
+      "fuel_type": "Diesel",
+      "transmission": "Manual"
+    },
+    {
+      "_id": "10",
+      "make": "Nissan",
+      "model": "Altima",
+      "year": 2021,
+      "color": "Black",
+      "mileage": 12000,
+      "price": 22000,
+      "fuel_type": "Petrol",
+      "transmission": "Automatic"
+    }
+  ]
+  
