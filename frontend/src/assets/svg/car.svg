@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    width="400"
+    height="200"
+    viewBox="0 0 400 200"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+    <!-- Car Body -->
+    <g id="car-body">
+        <path
+            d="M50 100
+               L70 80
+               L130 80
+               L150 100
+               L150 120
+               L130 140
+               L70 140
+               L50 120
+               Z"
+            fill="#1E90FF"
+            stroke="#000"
+            stroke-width="2"
+        />
+    </g>
+
+    <!-- Windows -->
+    <g id="windows">
+        <!-- Front window -->
+        <polygon
+            points="80,90 100,70 130,70 130,90"
+            fill="#87CEFA"
+            stroke="#000"
+            stroke-width="1"
+        />
+        <!-- Rear window -->
+        <polygon
+            points="70,90 50,70 80,70 80,90"
+            fill="#87CEFA"
+            stroke="#000"
+            stroke-width="1"
+        />
+    </g>
+
+    <!-- Wheels -->
+    <g id="wheels">
+        <!-- Front wheel -->
+        <circle
+            cx="80"
+            cy="140"
+            r="15"
+            fill="#333"
+            stroke="#000"
+            stroke-width="2"
+        />
+        <!-- Rear wheel -->
+        <circle
+            cx="120"
+            cy="140"
+            r="15"
+            fill="#333"
+            stroke="#000"
+            stroke-width="2"
+        />
+    </g>
+
+    <!-- Wheel Details -->
+    <g id="wheel-details">
+        <!-- Front wheel spokes -->
+        <line x1="80" y1="140" x2="80" y2="125" stroke="#fff" stroke-width="2"/>
+        <line x1="80" y1="140" x2="90.6" y2="133.5" stroke="#fff" stroke-width="2"/>
+        <line x1="80" y1="140" x2="69.4" y2="133.5" stroke="#fff" stroke-width="2"/>
+
+        <!-- Rear wheel spokes -->
+        <line x1="120" y1="140" x2="120" y2="125" stroke="#fff" stroke-width="2"/>
+        <line x1="120" y1="140" x2="130.6" y2="133.5" stroke="#fff" stroke-width="2"/>
+        <line x1="120" y1="140" x2="109.4" y2="133.5" stroke="#fff" stroke-width="2"/>
+    </g>
+
+    <!-- Headlights -->
+    <g id="headlights">
+        <circle
+            cx="150"
+            cy="110"
+            r="5"
+            fill="#FFD700"
+            stroke="#000"
+            stroke-width="1"
+        />
+        <circle
+            cx="50"
+            cy="110"
+            r="5"
+            fill="#FFD700"
+            stroke="#000"
+            stroke-width="1"
+        />
+    </g>
+
+    <!-- Door Lines -->
+    <g id="doors">
+        <line x1="100" y1="100" x2="100" y2="120" stroke="#000" stroke-width="1"/>
+    </g>
+
+    <!-- Bumpers -->
+    <g id="bumpers">
+        <rect
+            x="48"
+            y="120"
+            width="4"
+            height="10"
+            fill="#555"
+            stroke="#000"
+            stroke-width="1"
+        />
+        <rect
+            x="148"
+            y="120"
+            width="4"
+            height="10"
+            fill="#555"
+            stroke="#000"
+            stroke-width="1"
+        />
+    </g>
+
+    <!-- Additional Details -->
+    <g id="details">
+        <!-- Side mirrors -->
+        <rect
+            x="130"
+            y="85"
+            width="10"
+            height="5"
+            fill="#555"
+            stroke="#000"
+            stroke-width="1"
+            transform="rotate(-30 130 85)"
+        />
+        <rect
+            x="60"
+            y="85"
+            width="10"
+            height="5"
+            fill="#555"
+            stroke="#000"
+            stroke-width="1"
+            transform="rotate(30 60 85)"
+        />
+
+        <!-- Door Handle -->
+        <rect
+            x="105"
+            y="105"
+            width="2"
+            height="5"
+            fill="#000"
+        />
+    </g>
+</svg>
+

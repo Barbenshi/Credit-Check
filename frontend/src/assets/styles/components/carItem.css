@@ -1,0 +1,22 @@
+.car-item {
+    position: relative;
+    padding: 30px 50px;
+    background-color: bisque;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    .price {
+        position: absolute;
+        top: 42px;
+        inset-inline-end: 0px;
+        transform: rotate(45deg);
+    }
+
+    > div {
+        span:last-child {
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+html {
+    body {
+        margin: 0;
+        background-color: aliceblue;
+        padding-inline: 20px;
+        padding-block: 20px;
+
+        * {
+            box-sizing: border-box; 
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: unset;
+            color: inherit;
+        }
+
+        .flex {
+            display: flex;
+
+            &.wrap {
+                flex-wrap: wrap;
+            }
+
+            &.gap-5 {
+                gap: 5px;
+            }
+        }
+    }
+}
